@@ -4697,10 +4697,6 @@ button.mfp-arrow {
     font-size: 24px;
     color: #fff;
 }
-.map {	
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	}
 
 
 /* ======= Buttons style ======= */
@@ -5093,7 +5089,7 @@ button.mfp-arrow {
   -webkit-box-align: center;
   -ms-flex-align: center;
       align-items: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .footer-about-social-list a {
   display: -webkit-box;
