@@ -303,55 +303,52 @@
                         <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
                     </div>
                     <!-- Booking From -->
-                    <div id="book" class="col-md-5 offset-md-2">
+                    <div class="col-md-5 offset-md-2">
                         <div class="booking-box">
                             <div class="head-box">
                                 <h6>Rooms & Suites</h6>
                                 <h4>Auditorium  Booking Form</h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form action="rooms2.html" class="form1 clearfix">
+                                <form action="https://formspree.io/f/mgegepjb"  method="post" class="form1 clearfix">
                                     <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="col-md-6">
                                             <div class="input1_wrapper">
-                                                <label>Check in</label>
+                                                <label>Name</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check in">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="input1_wrapper">
-                                                <label>Check out</label>
-                                                <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check out">
+                                                    <input name="Name" type="text" maxlength="10" minlength="2"  class="form-control input " placeholder="Your Name" required>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Adults</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Adults</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
+                                            <div class="input1_wrapper">
+                                                <label>Available Date</label>
+                                                <div class="input1_inner">
+                                                    <input name="Booking Date" type="text" class="form-control input datepicker" placeholder="Available Date" required>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <style></style>
+                                        <div class="col-md-12">
+                                            <div class="input1_wrapper">
+                                                <label>Phone Number</label>
+                                                <div class="input1_inner">
+                                                    <input name="Phone Number" maxlength="10" minlength="10" type="text" class=" input " placeholder="Phone Number" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
                                             <div class="select1_wrapper">
-                                                <label>Children</label>
+                                                <label>Program</label>
                                                 <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Children</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
+                                                    <select name="program" class="select2 select" style="width: 100%" required>
+                                                        <option value="Wedding">Wedding</option>
+                                                        <option value="Engagement">Engagement</option>
+                                                        <option value="BirthDay">BirthDay</option>
+                                                        <option value="Meeting">Meeting</option>
+                                                        <option value="Party">Party</option>
+                                                        <option value="Other Functions">Other Functions</option>
                                                     </select>
                                                 </div>
                                             </div>

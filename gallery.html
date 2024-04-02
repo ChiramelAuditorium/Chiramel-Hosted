@@ -558,30 +558,30 @@
                                 <h4>Auditorium  Booking Form</h4>
                             </div>
                             <div class="booking-inner clearfix">
-                                <form action="rooms2.html" class="form1 clearfix">
+                                <form action="https://formspree.io/f/mgegepjb"  method="post" class="form1 clearfix">
                                     <div class="row">
-                                        
                                         <div class="col-md-6">
                                             <div class="input1_wrapper">
                                                 <label>Name</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input " placeholder="Your Name">
+                                                    <input name="Name" type="text" maxlength="10" minlength="2"  class="form-control input " placeholder="Your Name" required>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="input1_wrapper">
-                                                <label>Check in</label>
+                                                <label>Available Date</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check in">
+                                                    <input name="Booking Date" type="text" class="form-control input datepicker" placeholder="Available Date" required>
                                                 </div>
                                             </div>
                                         </div>
+                                        <style></style>
                                         <div class="col-md-12">
                                             <div class="input1_wrapper">
                                                 <label>Phone Number</label>
                                                 <div class="input1_inner">
-                                                    <input type="text" class=" input " placeholder="Phone Number">
+                                                    <input name="Phone Number" maxlength="10" minlength="10" type="text" class=" input " placeholder="Phone Number" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -590,7 +590,7 @@
                                             <div class="select1_wrapper">
                                                 <label>Program</label>
                                                 <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
+                                                    <select name="program" class="select2 select" style="width: 100%" required>
                                                         <option value="Wedding">Wedding</option>
                                                         <option value="Engagement">Engagement</option>
                                                         <option value="BirthDay">BirthDay</option>
