@@ -56,13 +56,13 @@ $(function () {
         if (st > 150) {
             if (!navbar.hasClass('scrolled')) {
                 navbar.addClass('scrolled');
-                logo.attr('src', 'img/logo.png');
+                logo.attr('src', 'images/logo.png');
             }
         }
         if (st < 150) {
             if (navbar.hasClass('scrolled')) {
                 navbar.removeClass('scrolled sleep')
-                logo.attr('src', 'img/logo.png');
+                logo.attr('src', 'images/logo.png');
             }
         }
         if (st > 350) {
